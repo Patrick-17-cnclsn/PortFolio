@@ -10,14 +10,14 @@ const baseProjects = [
         id: 1,
         year: 2025,
         title: "Project 1",
-        description: "basic-react-essentiel",
+        description: "",
         image: "/assets_perso/react_essentiel.png",
     },
     {
         id: 2,
         year: 2025,
         title: "Project 2",
-        description: "calculator-invest-basics",
+        description: "T",
         image: "/assets_perso/invest_react.png",
     },
 
