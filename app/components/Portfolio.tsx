@@ -28,10 +28,10 @@ const projects = [...baseProjects];
 export const Portfolio = () => {
     const [selectProjects, setSelectProjects] = useState(baseProjects[0]);
     return (
-        <section id="portfolio" className="text-white py-32 bg-gray-950 ">
-            <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12  ">
+        <section id="portfolio" className="text-white py-24 bg-gray-950 ">
+            <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-10  ">
             <div className=" shadow-blue-950 shadow-lg rounded-xl p-4 ">
-                <h2 className="text-6xl font-bold md-10">Selected <span className="text-gray-400">Projects</span></h2>
+                <h2 className="text-6xl font-bold md-10 md:text-4xl ">Selected <span className="text-gray-400">Projects</span></h2>
                     {projects.map((project) => (
                     <div
                         key={project.id}
